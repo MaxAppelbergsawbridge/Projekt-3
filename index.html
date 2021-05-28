@@ -1,20 +1,30 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="todo.js"></script>
 </head>
 <body>
     <header> To-do list </header>
-    <h1>Corona's been hitting ya real hard, huh buddy? </h1>
-    <div class="output">
-
-    </div>
-    <div class="viewed">
-
-    </div>
-    <div class="input">
-        
+    <h1> </h1>
+    <div class="three-col-container">
+        <div id="Output">
+            <form class="output">
+                <label><input name= "button" type="button">Title</label>
+               
+            </form>
+        </div>
+            <form class="input">
+                <div class="title">Title</div>
+                <input class="input" id="input" name="mittRuta" type="text" placeholder="todo">
+                <label for="submit" id="btn" ><button>submit</button> </label>
+                <div id="test">
+                    <p>Task</p>
+                </div>
+            </form>
     </div>
 </body>
 </html>
